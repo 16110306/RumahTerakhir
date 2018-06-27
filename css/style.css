@@ -28,9 +28,7 @@
 /* Remove border and add padding to thumbnails */
 .thumbnail {
     padding: 0 0 15px 0;
-    border: none;
     border-radius: 4;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
@@ -65,4 +63,14 @@
     border-radius: 10px;
     transition: .2s;
     margin: 5px;
+  }
+  .thumbnail-content {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border .2s ease-in-out;
   }
