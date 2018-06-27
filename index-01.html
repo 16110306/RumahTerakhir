@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <script src="jquery/3.3.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
  
 <body>
@@ -30,7 +31,7 @@
         <li><a href="#">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#myModal">Login</button>
+        <button type="button" class="btn-login btn-lg " data-toggle="modal" data-target="#myModal"><span class="fa fa-sign-in" style="font-size:20px; padding-right:5px;"></span>Login</button>
 
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
@@ -40,26 +41,26 @@
       <div class="modal-content">
         <div class="modal-header" style="padding:35px 50px;">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4><span class="glyphicon glyphicon-lock"></span> Login</h4>
+          <h4><span class="fa fa-sign-in" style="font-size:20px"></span> Login</h4>
         </div>
         <div class="modal-body" style="padding:40px 50px;">
           <form role="form">
             <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <label for="usrname"><span class="fa fa-user" style="font-size:20px"></span> Username</label>
               <input type="text" class="form-control" id="usrname" placeholder="Enter email">
             </div>
             <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-              <input type="text" class="form-control" id="psw" placeholder="Enter password">
+              <label for="psw"><span class="fa fa-lock" style="font-size:24px glyphicon-eye-open"></span> Password</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password">
             </div>
             <div class="checkbox">
               <label><input type="checkbox" value="" checked>Remember me</label>
             </div>
-              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+              <button type="submit" class="btn btn-success btn-block"><span class="fa fa-power-off" style="font-size:15px"></span> Login</button>
           </form>
         </div>
         <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          <button type="submit" class="btn-cancel pull-left btn-danger" data-dismiss="modal"><span class="fa fa-remove" style="font-size:20px"></span> Cancel</button>
           <p>Not a member? <a href="#">Sign Up</a></p>
           <p>Forgot <a href="#">Password?</a></p>
         </div>
@@ -109,11 +110,11 @@
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="glyphicon glyphicon-chevron-left fa fa-mail-reply" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
     <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="glyphicon glyphicon-chevron-right fa fa-mail-forward" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
 </div>
@@ -152,6 +153,7 @@
 
 <!-- Container (Services Section) -->
 <div class="container-fluid text-center">
+<div class="">
   <h2>SERVICES</h2>
   <h4>What we offer</h4>
   <br>
@@ -194,7 +196,7 @@
 </div>
 <!-- Where To Find Me? -->
 <div class="container-fluid-grey bg-3 text-center">    
-  <h2>Where To Find Me?</h2><br>
+  <h3>Where To Find Me?</h3><br>
   <div class="row">
     <div class="col-sm-4">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
