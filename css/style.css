@@ -32,10 +32,6 @@
 
 }
 
-.thumbnail p {
-    margin-top: 15px;
-    color: #fff;
-}
 
 /* On hover, the color of .btn will transition to white with black text */
 .btn:hover, .btn:focus {
@@ -495,3 +491,32 @@
             .testimonial.testimonial-danger-filled .testimonial-writer-name{
                 color: #D9534F;
             }
+
+.panel-daerah {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-daerah {
+    padding: 15px;
+    border: 0.5px solid #ccc;
+}
+.row-putih {
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: white;
+}
+.panel-button {
+    padding: 15px;
+    /* border: 0.5px solid #ccc; */
+    border-bottom: 0.5px solid #ccc;
+}
+.table-left {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
