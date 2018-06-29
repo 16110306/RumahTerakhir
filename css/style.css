@@ -520,16 +520,7 @@
     margin-bottom: 20px;
     text-align: left;
 }
-body {
-    font-family: open sans,arial,'sans-serif';
-    font-weight: 400!important;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #757575;
-    background-color: #f4f3f6;
-
-}
-#div-reply-message{
-    margin-left: 400px;
-    margin-bottom: 100px;
+.form-group-contact {
+    margin-bottom: 15px;
+    margin-left: 100px;
 }
