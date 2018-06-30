@@ -49,6 +49,16 @@
     padding-bottom: 10px;
     text-align: center;
 }
+.h2-register {
+    font-size: 30px;
+    color: #0E7A00;
+    /* border-bottom: 0.5px solid #ccc; */
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
 
 
 /* On hover, the color of .btn will transition to white with black text */
@@ -74,6 +84,11 @@
     background-image: none;
     border: 1px solid transparent;
     border-radius: 2px;
+}
+.btn-register {
+    color: #fff;
+    background-color: #0E7A00;
+    border-color: #2e6da4;
 }
 .btn-nav {
     padding: 7px 15px;
