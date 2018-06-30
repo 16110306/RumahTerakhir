@@ -42,6 +42,13 @@
     border-radius: 4;
 
 }
+.h2-center {
+    font-size: 30px;
+    color: #0E7A00;
+    /* border-bottom: 0.5px solid #ccc; */
+    padding-bottom: 10px;
+    text-align: center;
+}
 
 
 /* On hover, the color of .btn will transition to white with black text */
@@ -164,6 +171,15 @@
     margin-left: auto;
     background-color: #f2f2f2;
 }
+/*---------------Register & Login---------------------*/
+.input-register {
+    position: relative;
+    display: table;
+    width: 400px;
+    border-collapse: separate;
+}
+
+/*---------------END Register & Login---------------------*/
 /*----------------------------------------------------*/
 /*----------------- Testimonials CSS -----------------*/
 /*--------------------kabib.net---------------*/
