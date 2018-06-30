@@ -190,7 +190,7 @@
 .input-register {
     position: relative;
     display: table;
-    width: 400px;
+    width: 100%;
     border-collapse: separate;
 }
 
