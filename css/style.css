@@ -1,9 +1,7 @@
-/* Remove the navbar's default rounded borders and increase the bottom margin */ 
-    .navbar {
-      margin-bottom: 50px;
-      border-radius: 0;
-    }
-    
+.navbar-hijau {
+    background-color: #0E7A00;
+    border-color: #0E7A00;
+}
     /* Remove the jumbotron's default bottom margin */ 
      .jumbotron {
       margin-bottom: 0;
@@ -15,6 +13,19 @@
       padding: 25px;
     }
 /* Remove rounded borders from list */
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #269018;
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #269018;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #ccc;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #269018;
+}
 .list-group-item:first-child {
     border-top-right-radius: 0;
     border-top-left-radius: 0;
@@ -34,6 +45,39 @@
 
 
 /* On hover, the color of .btn will transition to white with black text */
+.btn-detail {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    background-color: #0E7A00;
+    color: white;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.btn-nav {
+    padding: 7px 15px;
+    align-items: center;
+    background-color: #0e7a00;
+    color: #f1f1f1;
+    border-radius: 2px;
+    transition: .2s;
+    margin: 5px;
+    box-shadow: 4px;
+}
 .btn:hover, .btn:focus {
     border: 1px solid #0E7A00;
     background-color: #fff;
@@ -51,15 +95,6 @@
     margin-left: auto;
     background-color:#f2f2f2;
 }
-.btn {
-    padding: 7px 15px;
-    align-items: center;
-    background-color: #0E7A00;
-    color: #f1f1f1;
-    border-radius: 10px;
-    transition: .2s;
-    margin: 5px;
-  }
   .thumbnail-content {
     display: block;
     padding: 4px;
@@ -69,15 +104,7 @@
     border-radius: 4px;
     transition: border .2s ease-in-out;
   }
-  .btn-cancel {
-    padding: 7px 15px;
-    align-items: center;
-    background-color: red;
-    color: #f1f1f1;
-    border-radius: 10px;
-    transition: .2s;
-    margin: 5px;
-}
+  
 .h2, h2 {
     font-size: 30px;
     color: #0E7A00;
@@ -88,12 +115,12 @@
 .btn-login {
     padding: 7px 15px;
     align-items: center;
-    border: 1px solid #ccc;
-    background-color: #0E7A00;
+    background-color: #269018;
     color: #f1f1f1;
-    border-radius: 10px;
+    border-radius: 2px;
     transition: .2s;
     margin: 5px;
+    box-shadow: 4px;
   }
   .col-sm-4-border {
     width: 33.33333333%;
@@ -123,6 +150,19 @@
     border-radius: 10px;
     transition: .2s;
     margin: 5px;
+}
+.modal-login-footer {
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
+.container-fluid-grey-left {
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f2f2f2;
 }
 /*----------------------------------------------------*/
 /*----------------- Testimonials CSS -----------------*/
