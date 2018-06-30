@@ -13,7 +13,7 @@
 <body>
 
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-hijau">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -24,12 +24,6 @@
       <a class="navbar-brand" href="#">Logo</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
       <ul class="nav navbar-nav navbar-right">
         <button type="button" class="btn btn-login btn-lg " data-toggle="modal" data-target="#myModal"><span class="fa fa-sign-in" style="font-size:20px; padding-right:5px;"></span>Login</button>
 
@@ -59,8 +53,7 @@
               <button type="submit" class="btn btn-success btn-block"><span class="fa fa-power-off" style="font-size:15px"></span> Login</button>
           </form>
         </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn-cancel pull-left btn-danger" data-dismiss="modal"><span class="fa fa-remove" style="font-size:20px"></span> Cancel</button>
+        <div class="modal-footer modal-login-footer">
           <p>Not a member? <a href="register.html">Sign Up</a></p>
           <p>Forgot <a href="#">Password?</a></p>
         </div>
@@ -70,17 +63,24 @@
   </div> 
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <a href="register.html"><button type="button" class="btn btn-lg">Register</button></a>
+        <a href="register.html"><button type="button" class="btn btn-lg btn-login">Register</button></a>
+        <li><a href="#"><span class="fa fa-cart-plus" style="font-size:19px"></span> Cart</a></li>
+      </ul>
       </ul>
       <form class="navbar-form navbar-right" role="search">
         <div class="form-group input-group">
           <input type="text" class="form-control" placeholder="Search..">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="fa fa-search" style="font-size:17px"></span>
+            </button>
           </span>        
         </div>
       </form>
     </div>
   </div>
 </nav>
+
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -125,28 +125,28 @@
     <div class="thumbnail">
       <img src="img/makam1.jpg" alt="Paris" width="400" height="300">
       <h3>TIPE PRIVATE ESTATE</h3>
-      <button class="btn">Detail</button>
+      <button class="btn btn-detail">Detail</button>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
       <img src="img/makam2.jpg" alt="New York" width="400" height="300">
       <h3>TIPE SINGLE BURIAL</h3>
-      <button class="btn">Detail</button>
+      <button class="btn btn-detail">Detail</button>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
       <img src="img/makam3.jpg" alt="San Francisco" width="400" height="300">
       <h3>TIPE SEMI PRIVATE</h3>
-      <button class="btn">Detail</button>
+      <button class="btn btn-detail">Detail</button>
     </div>
   </div>
    <div class="col-sm-3">
     <div class="thumbnail">
       <img src="img/makam3.jpg" alt="San Francisco" width="400" height="300">
       <h3>TIPE SEMI PRIVATE</h3>
-      <button class="btn">Detail</button>
+      <button class="btn btn-detail">Detail</button>
     </div>
   </div>
 </div>
@@ -300,26 +300,16 @@
   </div>
 </div>
 <!-- Where To Find Me? -->
-<div class="container-fluid-grey bg-3 text-center">    
-  <h3>Temukan Kami Di ?</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p>Universitas Amikom Yogyakarta</p>
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div class="col-sm-4"> 
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-  </div>
+<div class="container-fluid-grey bg-3 text-center-left">    
+  <h3>APA ITU RUMAH TERAKHIR?</h3>
+ <p>JD.id merupakan anak perusahaan dari salah satu toko online terbesar di Asia (JD.com). JD.id menawarkan harga yang kompetitif dari sejumlah produk dalam kategori yang berbeda. Berbagai metode pembayaran dapat dipilih sehingga konsumen dapat menikmati kenyamanan berbelanja dengan lebih mudah.</p>
 </div></br></br>
 
 <footer class="container-fluid text-center">
   <p>Rumah Terakhir Copyright</p>  
   <form class="form-inline">Get deals:
     <input type="email" class="form-control" size="50" placeholder="Email Address">
-    <button type="button" class="btn btn-sm ">Sign Up</button>
+    <button type="button" class="btn btn-detail ">Sign Up</button>
   </form>
 </footer>
 
