@@ -620,8 +620,11 @@ position: relative;
     background-color:#090;
     color: #000;
 }
-.btn:hover, .btn:focus a {
-    color: #FFF;
+a{
+    color:#FFF;
+}
+a:hover {
+    color:#FFF;
 }
 
 .menu-kecil {
