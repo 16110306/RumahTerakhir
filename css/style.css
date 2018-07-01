@@ -638,4 +638,12 @@ a:hover {
 	color:#090;
 }
     /*---- Fslide----*/
+.thumbnail-char{
+    margin-right: auto;
+    padding: 10px;
+    margin-left: auto;
+}
+.form-inline-text{
+    text-align: left;
     
+}
