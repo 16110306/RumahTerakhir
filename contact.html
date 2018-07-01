@@ -13,7 +13,7 @@
 <body>
 
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-hijau">
   <div class="container-fluid">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -24,12 +24,6 @@
       <a class="navbar-brand" href="#">Logo</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li ><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Projects</a></li>
-        <li class="active"><a href="#">Contact</a></li>
-      </ul>
       <ul class="nav navbar-nav navbar-right">
         <button type="button" class="btn btn-login btn-lg " data-toggle="modal" data-target="#myModal"><span class="fa fa-sign-in" style="font-size:20px; padding-right:5px;"></span>Login</button>
 
@@ -59,8 +53,7 @@
               <button type="submit" class="btn btn-success btn-block"><span class="fa fa-power-off" style="font-size:15px"></span> Login</button>
           </form>
         </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn-cancel pull-left btn-danger" data-dismiss="modal"><span class="fa fa-remove" style="font-size:20px"></span> Cancel</button>
+        <div class="modal-footer modal-login-footer">
           <p>Not a member? <a href="register.html">Sign Up</a></p>
           <p>Forgot <a href="#">Password?</a></p>
         </div>
@@ -70,49 +63,29 @@
   </div> 
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <a href="register.html"><button type="button" class="btn btn-lg">Register</button></a>
+        <a href="register.html"><button type="button" class="btn btn-lg btn-login">Register</button></a>
+        <li><a href="#"><span class="fa fa-cart-plus" style="font-size:19px"></span> Cart</a></li>
+      </ul>
       </ul>
       <form class="navbar-form navbar-right" role="search">
         <div class="form-group input-group">
           <input type="text" class="form-control" placeholder="Search..">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="fa fa-search" style="font-size:17px"></span>
+            </button>
           </span>        
         </div>
       </form>
     </div>
   </div>
 </nav>
+<!--end nav-->
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        
-        <div class="carousel-caption">
-          <h4>Sell $</h4>
-          <p>Money Money.</p>
-        </div>      
-      </div>
-
-     
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left fa fa-mail-reply" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right fa fa-mail-forward" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-</div>
-<!-- Paris -->
-  <div class="form-group form-group-contact form-error-body-message" id="div-reply-message">
+<div class="container-fluid center">
+  <div class="col-sm-7">
+    <div class="thumbnail">
+      <div class="form-group form-group-contact form-error-body-message" id="div-reply-message">
       <label class="form-label inline-block">Detail masalah<span class="required" aria-hidden="true">*</span>: </label>
       <div class="relative">
         <textarea name="message" class="text-input textarea mt-10 submit-textarea" id="ticket_reply_msg" cols="70" rows="10" placeholder="Tuliskan detail permasalahan Anda"></textarea>
@@ -129,21 +102,18 @@
       </div>
       <button class="btn">KIRIM</button>
       <p></p>
+      </div>
     </div>
   </div>
-<!-- Container (Services Section) -->
-
+  </div>
+  <div class="col-sm-5">
+      <img src="img/makam1.jpg" alt="Paris" width="400" height="300">
+  </div>
 </div>
-<!-- Where To Find Me? -->
-
-
+</div>
 <footer class="container-fluid text-center">
-  <p>Rumah Terakhir Copyright©</p>  
-  <form class="form-inline">Get deals:
-    <input type="email" class="form-control" size="50" placeholder="Email Address">
-    <button type="button" class="btn btn-sm ">Sign Up</button>
-  </form>
+  <p>Bantuan</p> 
+  <p>©2018 PT.Rumah Terakhir</p>  
 </footer>
-
 </body>
 </html>
