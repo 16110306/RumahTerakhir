@@ -100,11 +100,6 @@
     margin: 5px;
     box-shadow: 4px;
 }
-.btn:hover, .btn:focus {
-    border: 1px solid #0E7A00;
-    background-color: #fff;
-    color: #000;
-}
  .rowcontent {
       background-color: #f2f2f2;
       padding: 25px;
@@ -618,4 +613,27 @@ position: relative;
 .form-group-contact {
     margin-bottom: 15px;
     margin-left: 100px;
+}
+
+.btn:hover, .btn:focus {
+    border: 1px solid #0E7A00;
+    background-color:#090;
+    color: #000;
+}
+a{
+    color:#FFF;
+}
+a:hover {
+    color:#FFF;
+}
+
+.menu-kecil {
+	text-align:right;
+	margin: 5px 10px 5px 5px;
+}
+.menu-kecil a {
+	color:#000;
+}
+.menu-kecil a:hover {
+	color:#090;
 }
