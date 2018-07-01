@@ -614,3 +614,23 @@ position: relative;
     margin-bottom: 15px;
     margin-left: 100px;
 }
+
+.btn:hover, .btn:focus {
+    border: 1px solid #0E7A00;
+    background-color:#090;
+    color: #000;
+}
+.btn:hover, .btn:focus a {
+    color: #FFF;
+}
+
+.menu-kecil {
+	text-align:right;
+	margin: 5px 10px 5px 5px;
+}
+.menu-kecil a {
+	color:#000;
+}
+.menu-kecil a:hover {
+	color:#090;
+}
