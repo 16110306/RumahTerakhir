@@ -637,3 +637,17 @@ a:hover {
 .menu-kecil a:hover {
 	color:#090;
 }
+<<<<<<< HEAD
+
+=======
+    /*---- Fslide----*/
+.thumbnail-char{
+    margin-right: auto;
+    padding: 10px;
+    margin-left: auto;
+}
+.form-inline-text{
+    text-align: left;
+    
+}
+>>>>>>> e4abe7f008cb6087b099ba2f04b1f7dbca95005f
