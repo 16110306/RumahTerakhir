@@ -702,4 +702,7 @@ position: relative;
     line-height: 20px;
     color:white;
 }
->>>>>>> fb00e2712194909fe67e5c5dc1d2f976ab8dcfe1
+. containerByr:table table-striped{
+	table-layout:auto;
+	width:60%;
+}
