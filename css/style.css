@@ -90,6 +90,17 @@
     background-color: #0E7A00;
     border-color: #2e6da4;
 }
+.btn-register:hover{
+    border: 1px solid #0E7A00;
+    background-color:#090;
+    color: #000;
+}
+.btn-register a{
+    color:#FFF;
+}
+.btn-register a:hover {
+    color:#FFF;
+}
 .btn-nav {
     padding: 7px 15px;
     align-items: center;
@@ -139,6 +150,17 @@
     margin: 5px;
     box-shadow: 4px;
   }
+.btn-login:hover{
+    border: 1px solid #0E7A00;
+    background-color:#090;
+    color: #fff;
+}
+.btn-login a{
+    color:#FFF;
+}
+.btn-login a:hover {
+    color:#FFF;
+}
   .col-sm-4-border {
     width: 33.33333333%;
     border-right: 0.5px solid #ccc;
@@ -615,15 +637,15 @@ position: relative;
     margin-left: 100px;
 }
 
-.btn:hover, .btn:focus {
+.btn-detail:hover{
     border: 1px solid #0E7A00;
     background-color:#090;
     color: #000;
 }
-a{
+.btn-detail a{
     color:#FFF;
 }
-a:hover {
+.btn-detail a:hover {
     color:#FFF;
 }
 
@@ -632,14 +654,11 @@ a:hover {
 	margin: 5px 10px 5px 5px;
 }
 .menu-kecil a {
-	color:#000;
+	color:#948a8a;
 }
 .menu-kecil a:hover {
 	color:#090;
 }
-<<<<<<< HEAD
-
-=======
     /*---- Fslide----*/
 .thumbnail-char{
     margin-right: auto;
@@ -650,6 +669,7 @@ a:hover {
     text-align: left;
     
 }
+<<<<<<< HEAD
 
 .thumbnail-byr {
     padding: 0 0 15px 0;
@@ -664,3 +684,22 @@ a:hover {
 	background:#FFF;
 	text-align:left;
 }
+=======
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+     border-top: none;
+ }
+ .tengah {
+     text-align: center;
+ }
+ .navbar-brand-putih {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    color:white;
+}
+>>>>>>> fb00e2712194909fe67e5c5dc1d2f976ab8dcfe1
