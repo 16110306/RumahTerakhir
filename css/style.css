@@ -650,4 +650,17 @@ a:hover {
     text-align: left;
     
 }
->>>>>>> e4abe7f008cb6087b099ba2f04b1f7dbca95005f
+
+.thumbnail-byr {
+    padding: 0 0 15px 0;
+    border-radius: 4;
+	background:#FFF;
+	height:400px;
+}
+
+.menuu:h3{
+    padding: 0 0 15px 0;
+    border-radius: 4;
+	background:#FFF;
+	text-align:left;
+}
