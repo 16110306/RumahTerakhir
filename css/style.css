@@ -757,3 +757,16 @@ position: relative;
   border-color: #5cb85c; }
 .checkbox-success input[type="checkbox"]:checked + label::after {
   color: #fff; }
+
+.art-postcontent img {
+    vertical-align: middle;
+    margin: 2px;
+}
+.containerByr:table table-striped{
+	table-layout:auto;
+	width:60%;
+}
+.bold-merah{
+    font-weight: bold;
+    color: red;
+}
