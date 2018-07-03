@@ -702,7 +702,14 @@ position: relative;
     line-height: 20px;
     color:white;
 }
+<<<<<<< HEAD
 .art-postcontent img {
     vertical-align: middle;
     margin: 2px;
 }
+=======
+. containerByr:table table-striped{
+	table-layout:auto;
+	width:60%;
+}
+>>>>>>> eabc7c2b0fbf972805c6f08742ce7006f1bf6fa6
