@@ -58,8 +58,12 @@
     font-size: 40px;
     padding-bottom: 50px;
     text-align: center;
+    border-bottom: none;
 }
-
+.h2-register a {
+    color:#0E7A00;
+        border-bottom: none;
+}
 
 /* On hover, the color of .btn will transition to white with black text */
 .btn-detail {
@@ -684,7 +688,6 @@ position: relative;
 	background:#FFF;
 	text-align:left;
 }
-=======
 .table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{
     padding: 8px;
     line-height: 1.42857143;
@@ -702,14 +705,12 @@ position: relative;
     line-height: 20px;
     color:white;
 }
-<<<<<<< HEAD
 .art-postcontent img {
     vertical-align: middle;
     margin: 2px;
 }
-=======
 . containerByr:table table-striped{
 	table-layout:auto;
 	width:60%;
 }
->>>>>>> eabc7c2b0fbf972805c6f08742ce7006f1bf6fa6
+
