@@ -21,7 +21,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand navbar-brand-putih" href="index.html">Muslim Funeral Indonesia</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -82,46 +82,79 @@
 </nav>
 <!--end nav-->
 
-
- 
-  <div class="col-sm-12 text-center">
-    <div class="thumbnail-byr thumbnail-pembayaran">
-      <h3>Tagihan Anda</h3></br>
-      <p> mohon untuk dapat melakukan pemayaran sebelum <!-- Menampilkan Jam (Aktif) -->
-  <div id="clock"></div>
-  <h4> 
-  <p>15:00</p>
-    <!-- Menampilkan Hari, Bulan dan Tahun -->
-
-    <h4>
-    <script type='text/javascript'>
-      <!--
-      var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
-      var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
-      var date = new Date();
-      var day = date.getDate();
-      var month = date.getMonth();
-      var thisDay = date.getDay(),
-          thisDay = myDays[thisDay];
-      var yy = date.getYear();
-      var year = (yy < 1000) ? yy + 1900 : yy;
-      document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
-      //-->
-    </script></h4>
-  dengan rincian sebagai berikut.</p>
-
-      <img src="img/mandiri.png" alt="Paris" width="120px"><br>
-      <h4>137-00-1376577-8</h4>
-      <p>kode unik : 415</p>
-      <p>Jumlah yang harus DIBAYAR :</p>
-      <h4>Rp.5000.415</h4></br></br></br></br>
+<div class="byr">
+ <div class="container-fluid center">
+</div> 
+   <div class="col-sm-4">
+    <div class="thumbnail thumbnail-chart">
+      <img src="img/makam2.jpg" alt="New York" width="400" height="300"></br>
+      <h2>Nama Makam</h2>
+      <form class="form-inline form-inline-text">Nomer Pemakaman:
+    <button type="button" class="btn-detail-char">1 Agustus</button></br>
+      <form class="form-inline btn-chart">Tanggal Pemakaman:
+    <button type="button" class="btn-detail-char">1 Agustus</button></br>
+    <form class="form-inline form-inline-text">Jam Pemakaman:
+    <button type="button" class="btn-detail-char">1 Agustus</button></br>
+     <form class="form-inline form-inline-text">Total :
+    <button type="button" class="btn-detail-char">Rp.5.000.000</button>
+  </form>
+    </div>
+  </div>
+  <div class="col-sm-8">
+    <div class="thumbnail">
+    <h3>Pilih Metode Pembayaran</h3>
+     <table width="50%" class="table table-striped tengah">
+    <thead >
+      <tr>
+        <th class="tengah">Bank</th>
+        <th class="tengah">Nama Bank</th>
+        <th class="tengah">Bayar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="img/mandiri.png" style="width:80px;"></td>
+        <td>Mandiri</td>
+        <td><button class="btn btn-detail"><a href="pembayaran.html">Bayar</a></button></td>
+      </tr>
+    </tbody>
+     <tbody>
+      <tr>
+        <td><img src="img/bri.png" style="width:80px;"></td>
+        <td>Bri</td>
+        <td><button class="btn btn-detail"><a href="pembayaran.html">Bayar</a></button></td>
+      </tr>
+    </tbody>
+     <tbody>
+      <tr>
+        <td><img src="img/bca.png" style="width:80px;"></td>
+        <td>Bca</td>
+        <td><button class="btn btn-detail"><a href="pembayaran.html">Bayar</a></button></td>
+      </tr>
+    </tbody>
+     <tbody>
+      <tr>
+        <td><img src="img/mastercard.png" style="width:80px;"></td>
+        <td>Mastercard</td>
+        <td><button class="btn btn-detail"><a href="pembayaran.html">Bayar</a></button></td>
+      </tr>
+    </tbody>
+    </table>
+    </div>
   </div>
 </div>
 </div>
+<div class="containerByr">
+  <table width="50%" class="table table-striped tengah">
+  </table>
 </div>
+    </div>
+  </div>
+  
+</div>
+
 <!--footer-->
-</br></br></br></br>
-<footer class=" text-center">
+<footer class="container-fluid text-center">
   <p>©2018 PT.Rumah Terakhir</p>  
   <form class="form-inline">Get deals:
     <input type="email" class="form-control" size="50" placeholder="Email Address">
