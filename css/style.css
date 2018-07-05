@@ -704,8 +704,6 @@ position: relative;
     line-height: 20px;
     color:white;
 }
-<<<<<<< HEAD
-=======
 /*---checkbox--*/
 .checkbox {
   padding-left: 20px; }
@@ -763,19 +761,15 @@ position: relative;
   border-color: #5cb85c; }
 .checkbox-success input[type="checkbox"]:checked + label::after {
   color: #fff; }
-
->>>>>>> 26ab5e4504ac4e1be4c24422f1bf081a0c399f5e
 .art-postcontent img {
     vertical-align: middle;
     margin: 2px;
 }
-<<<<<<< HEAD
 . containerByr:table table-striped{
 	table-layout:auto;
 	width:60%;
 }
 
-=======
 .containerByr:table table-striped{
 	table-layout:auto;
 	width:60%;
@@ -784,4 +778,61 @@ position: relative;
     font-weight: bold;
     color: red;
 }
->>>>>>> 26ab5e4504ac4e1be4c24422f1bf081a0c399f5e
+.btn-detail-char {
+    margin: 10px;
+    padding: 100px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    background-color: #ccc;
+    color: white;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.btn-detail-chart:hover{
+    border: none;
+    background-color:#fff;
+    color: #fff;
+}
+.btn-login a{
+    color:#FFF;
+}
+.btn-detail-chart-bayar {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    background-color: #0E7A00;
+    color: white;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
