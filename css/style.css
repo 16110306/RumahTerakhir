@@ -644,13 +644,7 @@ position: relative;
 .btn-detail:hover{
     border: 1px solid #0E7A00;
     background-color:#090;
-    color: #000;
-}
-.btn-detail a{
-    color:#FFF;
-}
-.btn-detail a:hover {
-    color:#FFF;
+    color: #fff;
 }
 
 .menu-kecil {
@@ -785,7 +779,7 @@ position: relative;
     padding: 6px 12px;
     margin-bottom: 0;
     font-size: 14px;
-    background-color: #ccc;
+    background-color: #777373;
     color: white;
     font-weight: 400;
     line-height: 1.42857143;
@@ -842,4 +836,47 @@ position: relative;
     background: #FFF;
     height: 400px;
     margin-bottom: 10px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #fbfafa;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #ccc;
+}
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    width: 300px;
+}
+.btn-block-akun {
+    display: block;
+    width: 90%;
+    margin-left: 15px;
+}
+.btn-block-profil {
+    display: block;
+    width: 90%;
+}
+.carousel-inner>.item.active, .carousel-inner>.item.next.left, .carousel-inner>.item.prev.right {
+    left: 0;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+     background: url(img/banner.jpg) ;
+     background-color: #fff;
+    
+}
+.carousel-caption-single {
+    right: 20%;
+    left: 20%;
+    padding-bottom: 30px;
+    text-align: left;
+     color: #333;
+}
+.form-inline-text {
+    text-align: left;
+    padding-left: 10px;
 }
