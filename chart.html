@@ -12,8 +12,6 @@
 
  
 <body>
-
-
 <nav class="navbar navbar-inverse navbar-hijau">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -22,50 +20,56 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-<a class="navbar-brand navbar-brand-putih" href="index.html">Muslim Funeral Indonesia</a>
+      <a class="navbar-brand navbar-brand-putih" href="index.html">Muslim Funeral Indonesia</a>
     </div>
+    
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <button type="button" class="btn btn-login btn-lg " data-toggle="modal" data-target="#myModal"><span class="fa fa-sign-in" style="font-size:20px; padding-right:5px;"></span>Login</button>
-
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header" style="padding:35px 50px;">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4><span class="fa fa-sign-in" style="font-size:20px"></span> Login</h4>
-        </div>
-        <div class="modal-body" style="padding:40px 50px;">
-          <form role="form">
-            <div class="form-group">
-              <label for="usrname"><span class="fa fa-user" style="font-size:20px"></span> Username</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Enter email">
-            </div>
-            <div class="form-group">
-              <label for="psw"><span class="fa fa-lock" style="font-size:24px glyphicon-eye-open"></span> Password</label>
-              <input type="password" class="form-control" id="pwd" placeholder="Enter password">
-            </div>
-            <div class="checkbox">
-              <label><input type="checkbox" value="" checked>Remember me</label>
-            </div>
-              <button type="submit" class="btn btn-success btn-block"><span class="fa fa-power-off" style="font-size:15px"></span> Login</button>
-          </form>
-        </div>
-        <div class="modal-footer modal-login-footer">
-          <p>Not a member? <a href="register.html">Sign Up</a></p>
-          <p>Forgot <a href="#">Password?</a></p>
-        </div>
-      </div>
-      
-    </div>
-  </div> 
+        <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <span class="fa fa-user-circle text-center" style="font-size:20px"></span>
+                        <strong>Ismaya</strong>
+                        
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="navbar-login">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <p class="text-left">
+                                            <div class="testimonial-desc">
+                                               <img src="img/aji.jpg" alt="" />
+                                                 <div class="testimonial-writer"></div>
+                                            </div>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <p class="text-left"><strong>Ismaya Aji</strong></p>
+                                        <p class="text-left small">ismayaajisaputra@gmail.com</p>
+                                        <p class="text-left">
+                                            <a href="#" class="btn btn-primary btn-block-profil btn-sm">Setting</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <div class="navbar-login navbar-login-session">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <p>
+                                            <a href="#" class="btn btn-danger btn-block-akun">Keluar</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <a href="register.html"><button type="button" class="btn btn-lg btn-login">Register</button></a>
-        <li><a href="#"><span class="fa fa-cart-plus" style="font-size:19px"></span> Cart</a></li>
+        <li><a href="metode-pembayaran.html"><span class="fa fa-cart-plus" style="font-size:19px"></span> Cart</a></li>
       </ul>
       </ul>
       <form class="navbar-form navbar-right" role="search">
@@ -81,6 +85,7 @@
     </div>
   </div>
 </nav>
+
 <!--end nav-->
 
 
@@ -88,7 +93,7 @@
   <div class="col-sm-12">
 <div class="col-sm-4">
     <div class="thumbnail">
-      <img src="img/makam2.jpg" alt="Paris" width="400" height="300">
+      <img src="img/sb/makam1.jpg" alt="Paris" width="400" height="300">
     </div>
 </div>
 <div class="col-sm-8">
@@ -111,10 +116,19 @@ menjadi tanah paling favorit, dengan desain dan tata letak yang sangat modern me
     </div>
 </div>
 <div class="col-sm-12 text-center">
-<h2>Waktu Pemakaman</h2>
+<h3 class="text-left">Waktu Pemakaman</h3>
     <div class="thumbnail">
-    
+    <form class="form-inline form-inline-text">Tanggal Pemakaman:
+    <button type="button" class="btn btn-detail-char">1 Agustus</button>
+    <button type="button" class="btn btn-detail-char">2 Agustus</button>
+    <button type="button" class="btn btn-detail-char">3 Agustus</button>
+    <button type="button" class="btn btn-detail-char">4 Agustus</button>
+  </form>
+   <form class="form-inline form-inline-text">Jam:
+    <button type="button" class="btn btn-detail-char">1 Agustus</button>
+  </form>
     </div>
+
 </div>
   <div class="col-sm-8 text-center">
     <div class="thumbnail">
@@ -123,8 +137,8 @@ menjadi tanah paling favorit, dengan desain dan tata letak yang sangat modern me
     <tbody>
       <tr>
         <td> <div class="checkbox checkbox-success">
-                        <input id="checkbox1" type="checkbox">
-                        <label for="checkbox1">
+                        <input id="checkbox130" type="checkbox">
+                        <label for="checkbox130">
                         </label>
                     </div>
         </td>
@@ -683,24 +697,32 @@ menjadi tanah paling favorit, dengan desain dan tata letak yang sangat modern me
     </tbody>
   </table>
     </div>
+    </br></br></br>
   </div>
+
   <div class="col-sm-4">
     <div class="thumbnail thumbnail-chart">
-      <img src="img/makam2.jpg" alt="New York" width="400" height="300"></br>
-      <form class="form-inline form-inline-text">Tanggal Pemakaman:</br>
-    <button type="button" class="btn btn-detail ">Sign Up To Check!</button>
+      <img src="img/sb/makam1.jpg" alt="New York" width="400" height="300"></br>
+      <h2>Nama Makam</h2>
+      <form class="form-inline form-inline-text">Nomer Pemakaman:
+    <button type="button" class="btn-detail-char">6A</button></br>
+      <form class="form-inline btn-chart">Tanggal Pemakaman:
+    <button type="button" class="btn-detail-char">1 Agustus</button></br>
+    <form class="form-inline form-inline-text">Jam Pemakaman:
+    <button type="button" class="btn-detail-char">1 Agustus</button></br>
+     <form class="form-inline form-inline-text">Harga :
+    <button type="button" class="btn-detail-char">Rp.5.000.000</button>
   </form>
+  <div class="text-center">
+  <a href="metode-pembayaran.html" type="submit" class="btn btn-register btn-block btn-detail" style="margin-top:10px">Bayar </a>
+  </div>
     </div>
   </div>
 </div>
 </div>
 </div>
 </div>
-<!--testinmoni-->
-
-<!-- end testimoni-->
-<!--map-->
-<!--end map-->
+<!---End Content-->
 
 <!-- Container (Services Section) -->
 <div class="container-fluid text-center">
@@ -710,35 +732,42 @@ menjadi tanah paling favorit, dengan desain dan tata letak yang sangat modern me
   <br>
   <div class="row">
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-off logo-small"></span>
+      <span class=""></span>
+       <img src="img/service/1.jpg" class="img-circle" alt="Cinque Terre" width="90" height="70">
+    
       <h4>Perlindungan Konsumen</h4>
       <p>Kami akan mengembalikan uang Anda secara penuh, jika barang tidak sesuai dengan deskripsi atau berkualitas buruk</p>
     </div>
     <div class="col-sm-4 col-sm-4-border">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <span class=""></span>
+        <img src="img/service/2.jpg" class="img-circle" alt="Cinque Terre" width="90" height="70">
       <h4>Respon Cepat</h4>
       <p>Pertanyaan akan ditanggapi dalam waktu 24 jam Kami akan mengembalikan uang Anda secara penuh, jika barang tidak sesuai dengan deskripsi atau berkualitas buruk</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <span class=""></span>
+      <img src="img/service/aman.jpg" class="img-circle" alt="Cinque Terre" width="90" height="70">
       <h4>Pembayaran Aman</h4>
       <p>Kami menghadirkan pilihan metode pembayaran yang aman dan bervariasi</p>
     </div>
   </div>
   <br><br>
   <div class="row">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-leaf logo-small"></span>
+    <div class="col-sm-4 ">
+      <span class=""></span>
+        <img src="img/service/hijau.png" class="img-circle" alt="Cinque Terre" width="90" height="70">
       <h4>TANAH YANG HIJAU</h4>
       <p>Kami menjamin tanah yang hijau dan bersih. Kami akan mengembalikan uang Anda secara penuh, jika barang tidak sesuai dengan deskripsi atau berkualitas buruk</p>
     </div>
     <div class="col-sm-4 col-sm-4-border">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
+      <span class=""></span>
+        <img src="img/service/certi.jpg" class="img-circle" alt="Cinque Terre" width="90" height="70">
       <h4>BERSERTIFIKAT</h4>
       <p>Perusahaan kami telah bersertifikat (Resmi) Kami akan mengembalikan uang Anda secara penuh, jika barang tidak sesuai dengan deskripsi atau berkualitas buruk</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
+      <span class=""></span>
+       <img src="img/service/kerja.jpg" class="img-circle" alt="Cinque Terre" width="90" height="70">
       <h4 style="color:#303030;">KERJA KERAS</h4>
       <p>Pelayanan kami untuk anda akan kami lakukan dengan ikhlas dan dengan kerja keras yang besar..</p>
     </div>

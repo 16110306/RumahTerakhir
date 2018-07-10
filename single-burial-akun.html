@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="css/style.css">
  
 <body>
+
+
 <nav class="navbar navbar-inverse navbar-hijau">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -19,56 +21,63 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand navbar-brand-putih" href="index.html">Muslim Funeral Indonesia</a>
-    </div>
-    
+      <a class="navbar-brand" href="#">Logo</a>
+	  </div>
+	  
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    <span class="fa fa-user-circle text-center" style="font-size:20px"></span>
-                        <strong>Ismaya</strong>
-                        
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <div class="navbar-login">
-                                <div class="row">
-                                    <div class="col-lg-4">
-                                        <p class="text-left">
-                                            <div class="testimonial-desc">
-                                               <img src="img/aji.jpg" alt="" />
-                                                 <div class="testimonial-writer"></div>
-                                            </div>
-                                        </p>
-                                    </div>
-                                    <div class="col-lg-8">
-                                        <p class="text-left"><strong>Ismaya Aji</strong></p>
-                                        <p class="text-left small">ismayaajisaputra@gmail.com</p>
-                                        <p class="text-left">
-                                            <a href="#" class="btn btn-primary btn-block-profil btn-sm">Setting</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="divider"></li>
-                        <li>
-                            <div class="navbar-login navbar-login-session">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <p>
-                                            <a href="#" class="btn btn-danger btn-block-akun">Keluar</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </li>
+        <button type="button" class="btn btn-login btn-lg " data-toggle="modal" data-target="#myModal">Account</button>
+		
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h3>My Account</h3>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+			<div class="col-sm-6 tengah">
+			<img src="img/cail.jpg" alt="Paris" width="75%" height="165">
+			</div>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<div class="modal-body" style="padding:40px 50px;">
+            <div class="form-group">
+              <label for="name"><style="font-size:60px"></span>Name:</label>
+              <label for="name"><style="font-size:20px"></span>Cyril Triwardhana Arham</label>
+            </div>
+            <div class="form-group">
+              <label for="address"><style="font-size:60px"></span>Phone Number:</label>
+              <label for="address"><style="font-size:20px"></span>0880-2222-5555/0880-3344-7755</label>
+            </div>
+			<div class="form-group">
+              <label for="usrname"><style="font-size:60px"></span>Address:</label>
+              <label for="usrname"><style="font-size:20px"></span>Jl.Panglima Aim Perum III Pontianak Timur</label>
+            </div>
+			<div class="form-group">
+              <label for="transaction"><style="font-size:60px"></span>Transaction:</label>
+              <label for="transaction"><style="font-size:20px"></span>Anda belum pernah melakukan transaksi bersama kami! Silahkan lakukan transaksi</label>
+            </div>
+        </div>
+      </div>
       </ul>
+	 
+	  
+	  
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="metode-pembayaran.html"><span class="fa fa-cart-plus" style="font-size:19px"></span> Cart</a></li>
+        <a href="register.html"><button type="button" class="btn btn-lg btn-login">Register</button></a>
+		<a href="login.html"><button type="button" class="btn btn-lg btn-login">Login</button></a>
+        <li><a href="#"><span class="fa fa-cart-plus" style="font-size:19px"></span> Cart</a></li>
       </ul>
       </ul>
       <form class="navbar-form navbar-right" role="search">
@@ -85,11 +94,11 @@
   </div>
 </nav>
 <!--end nav-->
+
 <div class="menu-kecil">
-   <a href="tentang.html">Tentang Kami</a> \
-   <a href="bantuan.html">Hubungi Kami</a> \
-   <a href="bantuan.html">Bantuan</a>
+   <a href="#">Bantuan</a>
 </div>
+
 <!--Caraousel-->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
@@ -99,145 +108,127 @@
     </ol>
 
     <!-- Wrapper for slides -->
-    <div class="carousel-inner tengah" role="listbox">
+    <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="img/banner.jpg" alt="Gali Kubur" style="width:100%;">
+        <img src="img/banner.jpg" alt="Gali Kubur">
         <div class="carousel-caption">
-          <h4>Hello, Customers!!</h4>
+          <h4>Hello, Customer!!</h4>
           <p>Selamat Datang!</p>
         </div>      
       </div>
-
-      <div class="item">
-        <img src="img/banner1.jpg" alt="Image"  style="width:100%;">
-        <div class="carousel-caption">
-          <h4>Promo?</h4>
-          <p>Cek Diskon!</p>
-        </div>      
-      </div>
     </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left fa fa-mail-reply" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right fa fa-mail-forward" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
 </div>
 
 
 <!-- Paris -->
   <div class="rowcontent text-center" color="#5b5757">
-  <h2>TIPE PRIVATE ESTATE</h2>
+  <h2>TIPE SINGLE BURIAL</h2>
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="img/ps/makam1.jpg" alt="Paris" width="400" height="300">
+      <img src="img/sb/makam1.jpg" alt="Paris" width="400" height="300">
       <h3>Kebon Jeruk</h3>
       <p>DKI Jakarta</p>
-      <p class="bold-merah">Rp.7.000.000</p>
-      <a href="chart.html" class="btn btn-detail">Detail</a>
+      <p class="bold-merah">Rp.5.000.000</p>
+       <button class="btn btn-detail"><a href="chart.html">Detail</a></button>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="img/ps/makam2.jpg" alt="New York" width="400" height="300">
+      <img src="img/sb/makam2.jpg" alt="New York" width="400" height="300">
       <h3>Kedoya Raya</h3>
       <p>DKI Jakarta</p>
-      <p class="bold-merah">Rp.7.500.000</p>
-      <a href="chart.html" class="btn btn-detail">Detail</a>
+      <p class="bold-merah">Rp.5.500.000</p>
+      <button class="btn btn-detail">Pilih</button>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="img/ps/makam3.jpg" alt="San Francisco" width="400" height="300">
+      <img src="img/sb/makam3.jpg" alt="San Francisco" width="400" height="300">
       <h3>Cengkareng</h3>
       <p>DKI Jakarta</p>
-      <p class="bold-merah">Rp.7.600.000</p>
-      <a href="chart.html" class="btn btn-detail">Detail</a>
+      <p class="bold-merah">Rp.5.600.000</p>
+      <button class="btn btn-detail">Pilih</button>
     </div>
   </div>
    <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="img/ps/makam4.jpg" alt="San Francisco" width="400" height="300">
+      <img src="img/sb/makam4.jpg" alt="San Francisco" width="400" height="300">
       <h3>Kampung Baru</h3>
       <p>DKI Jakarta</p>
-      <p class="bold-merah">Rp.6.900.000</p>
-      <a href="chart.html" class="btn btn-detail">Detail</a>
+      <p class="bold-merah">Rp.4.900.000</p>
+      <button class="btn btn-detail">Pilih</button>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="img/ps/makam5.jpg" alt="Paris" width="400" height="300">
+      <img src="img/sb/makam5.jpg" alt="Paris" width="400" height="300">
       <h3>Taman Sari</h3>
       <p>DKI Jakarta</p>
-      <p class="bold-merah">Rp.7.200.000</p>
-      <a href="chart.html" class="btn btn-detail">Detail</a>
+      <p class="bold-merah">Rp.5.200.000</p>
+      <button class="btn btn-detail">Pilih</button>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="img/ps/makam6.jpg" alt="New York" width="400" height="300">
+      <img src="img/sb/makam6.jpg" alt="New York" width="400" height="300">
       <h3>Tanjung Duren</h3>
       <p>DKI Jakarta</p>
-      <p class="bold-merah">Rp.7.500.000</p>
-      <a href="chart.html" class="btn btn-detail">Detail</a>
+      <p class="bold-merah">Rp.5.500.000</p>
+      <button class="btn btn-detail">Pilih</button>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="img/ps/makam7.jpg" alt="San Francisco" width="400" height="300">
+      <img src="img/sb/makam7.jpg" alt="San Francisco" width="400" height="300">
       <h3>Kelapa Dua</h3>
       <p>DKI Jakarta</p>
-      <p class="bold-merah">Rp.7.800.000</p>
-      <a href="chart.html" class="btn btn-detail">Detail</a>
+      <p class="bold-merah">Rp.5.800.000</p>
+      <button class="btn btn-detail">Pilih</button>
     </div>
   </div>
    <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="img/ps/makam8.jpg" alt="San Francisco" width="400" height="300">
+      <img src="img/sb/makam8.jpg" alt="San Francisco" width="400" height="300">
       <h3>Kota Bambu</h3>
       <p>DKI Jakarta</p>
-      <p class="bold-merah">Rp.8.000.000</p>
-      <a href="chart.html" class="btn btn-detail">Detail</a>
+      <p class="bold-merah">Rp.6.000.000</p>
+      <button class="btn btn-detail">Pilih</button>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="img/ps/makam9.jpg" alt="Paris" width="400" height="300">
+      <img src="img/sb/makam9.jpg" alt="Paris" width="400" height="300">
       <h3>Palmerah</h3>
       <p>DKI Jakarta</p>
-      <p class="bold-merah">Rp.8.100.000</p>
-      <a href="chart.html" class="btn btn-detail">Detail</a>
+      <p class="bold-merah">Rp.6.100.000</p>
+      <button class="btn btn-detail">Pilih</button>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="img/ps/makam10.jpg" alt="New York" width="400" height="300">
+      <img src="img/sb/makam10.jpg" alt="New York" width="400" height="300">
       <h3>Sukabumi</h3>
       <p>DKI Jakarta</p>
-      <p class="bold-merah">Rp.7.900.000</p>
-      <a href="chart.html" class="btn btn-detail">Detail</a>
+      <p class="bold-merah">Rp.5.900.000</p>
+      <button class="btn btn-detail">Pilih</button>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="img/ps/makam11.jpg" alt="San Francisco" width="400" height="300">
+      <img src="img/sb/makam11.jpg" alt="San Francisco" width="400" height="300">
       <h3>Puri Kembangan</h3>
       <p>DKI Jakarta</p>
-      <p class="bold-merah">Rp.7.500.000</p>
-      <a href="chart.html" class="btn btn-detail">Detail</a>
+      <p class="bold-merah">Rp.5.500.000</p>
+      <button class="btn btn-detail">Pilih</button>
     </div>
   </div>
    <div class="col-sm-3">
     <div class="thumbnail">
-      <img src="img/ps/makam12.jpg" alt="San Francisco" width="400" height="300">
+      <img src="img/sb/makam12.jpg" alt="San Francisco" width="400" height="300">
       <h3>Basmol</h3>
       <p>DKI Jakarta</p>
-      <p class="bold-merah">Rp.7.600.000</p>
-      <a href="chart.html" class="btn btn-detail">Detail</a>
+      <p class="bold-merah">Rp.5.600.000</p>
+      <button class="btn btn-detail">Pilih</button>
     </div>
     <ul class="pagination">
     <li><a href="#">1</a></li>
@@ -249,6 +240,10 @@
   </div>
 </div>
 <!--testinmoni-->
+
+<!-- end testimoni-->
+<!--map-->
+<!--end map-->
 
 <!-- Container (Services Section) -->
 <div class="container-fluid text-center">
